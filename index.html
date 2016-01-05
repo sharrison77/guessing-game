@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Guess Game</title>
+  </head>
+  <body>
+    <h1> Guess Game Questions </h1>
+  <script>
+  var userName = prompt ('What is your name?');
+  console.log ('The user\'s name is ' + userName);
+  alert ('Hi, ' + userName + '.' + ' I\'m going to ask you a few questions.');
+
+  var answer1 = prompt (userName + ', Does Susan have children? Yes or No?').toUpperCase();
+  console.log ('The user answered Question 1: ' + answer1);
+  if (answer1 === 'YES') {
+    alert ('That\'s correct. She has 2 children.');
+  } else if (answer1 === 'NO') {
+    alert ('That\'s incorrect. She has children.');
+  }else {
+    alert ('Please answer with yes or no.')
+  }
+
+  var answer2 = prompt (userName + ', Does Susan have a cell phone? Yes or No').toUpperCase();
+  console.log ('The user answered Question 2: ' + answer2);
+  if (answer2 === 'YES') {
+    alert ('That incorrect. She hasn\'t had a cell phone for the past 5 years.');
+  }else if (answer2 === 'NO') {
+    alert ('That\'s correct. She doesn\'t have a cell phone.');
+  }else {
+    alert ('Please answer with yes or no');
+  }
+
+  var answer3 = prompt (userName + ', Does Susan live in Everett?').toUpperCase();
+  console.log('The user answered Question 3: ' + answer3);
+  if (answer3 === 'YES') {
+    alert ('That\'s correct. She takes the bus to school.');
+  } else if (answer3 === 'NO') {
+    alert ('That\'s incorrect. She lives in Everett.');
+  }
+
+  var answer4 = prompt (userName + ', Guess a number between 1 and 10');
+  console.log('The user answered Questions 4: ' + answer4);
+  if (answer4 <= 4) {
+    alert ('That number is too low.');
+  }else if (answer4 <=6)
+  {
+    alert ('That number is too high.');
+  }else {
+    alert ('That\'s the correct number.');
+  }
+</script>
+  </body>
+</html>
