@@ -1,2 +1,7 @@
 # guessing-game
 This is a guessing game that uses Javascript.
+
+1/7: Added functions to code -Zach
+1/7: Added skeleton to html -Zach
+1/7: Changed JavaScript to write answer responses to document rather than alert.
+edited 1/7 by Zach Simonson
