@@ -10,3 +10,4 @@ edited 1/7 by Zach Simonson
 1/8: Driver - Patrick Saunders      Navigator - Susan Harrison
 
 1/10: Added images and more CSS -Sharrison
+1/10: Removed dead code -Sharrison
