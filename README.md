@@ -8,3 +8,5 @@ edited 1/7 by Zach Simonson
 
 1/8: Code added by Patrick Saunders. Dry-ed out the questions into an array, one function and a for loop. Added color to the answers of y/n questions.
 1/8: Driver - Patrick Saunders      Navigator - Susan Harrison
+
+1/10: Added images and more CSS -Sharrison
